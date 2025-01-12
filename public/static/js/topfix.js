@@ -15,25 +15,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById("about").addEventListener("click", function () {
     const target = document.querySelector(".about-section");
-    target.scrollIntoView({ behavior: "smooth", block: "center" });
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
     header.classList.add('fixed')
   });
 
   document.getElementById("tours").addEventListener("click", function () {
     const target = document.querySelector(".tour-section");
-    target.scrollIntoView({ behavior: "smooth", block: "center" });
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
     header.classList.add('fixed')
   });
 
   document.getElementById("contacts").addEventListener("click", function () {
     const target = document.querySelector(".contact-info");
-    target.scrollIntoView({ behavior: "smooth", block: "center" });
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
     header.classList.add('fixed')
   });
 
   document.getElementById("testimonial").addEventListener("click", function () {
     const target = document.querySelector(".testimonials");
-    target.scrollIntoView({ behavior: "smooth", block: "center" });
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
     header.classList.add('fixed')
   });
 
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById("eco-tours").addEventListener("click", function () {
     const target = document.querySelector(".eco-tours");
-    target.scrollIntoView({ behavior: "smooth", block: "center" });
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
     header.classList.add('fixed')
   });
 
